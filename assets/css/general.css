@@ -1,0 +1,53 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    line-height: 1.5;
+    font-size: 62.5%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    display: block;
+    font-size: 15px;
+    display: flex;
+    margin: 15px 0;
+}
+
+b {
+    font-size: 15px;
+}
+
+hr {
+    display: block;
+    border: none;
+    margin: 20px 0;
+}
+
+
+@media (max-width: 739px) {
+    .row.separate-site .col {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .content__introduce-my-name {
+        margin-top: 40px;
+    }
+}
+
